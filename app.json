@@ -1,0 +1,7 @@
+{
+  "name": "Fundamentals Analysis API",
+  "description": "A simple Python API for performing fundamental analysis.",
+  "image": "heroku/python",
+  "repository": "https://github.com/alextanhongpin/intrinsic-value",
+  "keywords": ["python", "fundamental analysis" ]
+}
