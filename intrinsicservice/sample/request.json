@@ -11,9 +11,9 @@
   "long_term_growth_rate": 0.08,
   "free_cash_flow": 112500000,
   "discount_rate": 0.0794,
-    "perpetuity_growth_rate": 0.024,
-    "cash_and_cash_equivalent": 16000000,
-    "total_liabilities": 348000000,
-    "shares_outstanding": 43140000,
-    "current_value_per_share": 58.41
+  "perpetuity_growth_rate": 0.024,
+  "cash_and_cash_equivalent": 16000000,
+  "total_liabilities": 348000000,
+  "shares_outstanding": 43140000,
+  "current_value_per_share": 58.41
 }
