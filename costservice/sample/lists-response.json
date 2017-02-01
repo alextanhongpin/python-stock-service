@@ -1,0 +1,804 @@
+{
+  "data": [
+    {
+      "profit_or_loss": -1555.5909999999994,
+      "sell_price": 1
+    },
+    {
+      "profit_or_loss": -1520.7679999999996,
+      "sell_price": 1.01
+    },
+    {
+      "profit_or_loss": -1485.9349999999995,
+      "sell_price": 1.02
+    },
+    {
+      "profit_or_loss": -1451.1019999999994,
+      "sell_price": 1.03
+    },
+    {
+      "profit_or_loss": -1416.2689999999998,
+      "sell_price": 1.04
+    },
+    {
+      "profit_or_loss": -1381.4359999999997,
+      "sell_price": 1.05
+    },
+    {
+      "profit_or_loss": -1346.6029999999996,
+      "sell_price": 1.06
+    },
+    {
+      "profit_or_loss": -1311.7699999999995,
+      "sell_price": 1.07
+    },
+    {
+      "profit_or_loss": -1276.936999999999,
+      "sell_price": 1.08
+    },
+    {
+      "profit_or_loss": -1242.1039999999994,
+      "sell_price": 1.09
+    },
+    {
+      "profit_or_loss": -1207.260999999999,
+      "sell_price": 1.1
+    },
+    {
+      "profit_or_loss": -1172.427999999999,
+      "sell_price": 1.11
+    },
+    {
+      "profit_or_loss": -1137.5949999999993,
+      "sell_price": 1.12
+    },
+    {
+      "profit_or_loss": -1102.7620000000002,
+      "sell_price": 1.13
+    },
+    {
+      "profit_or_loss": -1067.9289999999992,
+      "sell_price": 1.1400000000000001
+    },
+    {
+      "profit_or_loss": -1034.096,
+      "sell_price": 1.15
+    },
+    {
+      "profit_or_loss": -999.2629999999999,
+      "sell_price": 1.16
+    },
+    {
+      "profit_or_loss": -964.4300000000003,
+      "sell_price": 1.17
+    },
+    {
+      "profit_or_loss": -929.5969999999998,
+      "sell_price": 1.18
+    },
+    {
+      "profit_or_loss": -894.7639999999992,
+      "sell_price": 1.19
+    },
+    {
+      "profit_or_loss": -859.9309999999996,
+      "sell_price": 1.2
+    },
+    {
+      "profit_or_loss": -825.1079999999993,
+      "sell_price": 1.21
+    },
+    {
+      "profit_or_loss": -790.2749999999996,
+      "sell_price": 1.22
+    },
+    {
+      "profit_or_loss": -755.442,
+      "sell_price": 1.23
+    },
+    {
+      "profit_or_loss": -720.6089999999995,
+      "sell_price": 1.24
+    },
+    {
+      "profit_or_loss": -685.7759999999998,
+      "sell_price": 1.25
+    },
+    {
+      "profit_or_loss": -650.9429999999993,
+      "sell_price": 1.26
+    },
+    {
+      "profit_or_loss": -616.1099999999997,
+      "sell_price": 1.27
+    },
+    {
+      "profit_or_loss": -581.2669999999998,
+      "sell_price": 1.28
+    },
+    {
+      "profit_or_loss": -546.4339999999993,
+      "sell_price": 1.29
+    },
+    {
+      "profit_or_loss": -511.60099999999966,
+      "sell_price": 1.3
+    },
+    {
+      "profit_or_loss": -476.76800000000003,
+      "sell_price": 1.31
+    },
+    {
+      "profit_or_loss": -441.9349999999995,
+      "sell_price": 1.32
+    },
+    {
+      "profit_or_loss": -407.10199999999986,
+      "sell_price": 1.33
+    },
+    {
+      "profit_or_loss": -372.2689999999993,
+      "sell_price": 1.34
+    },
+    {
+      "profit_or_loss": -337.4359999999997,
+      "sell_price": 1.35
+    },
+    {
+      "profit_or_loss": -302.60300000000007,
+      "sell_price": 1.3599999999999999
+    },
+    {
+      "profit_or_loss": -267.7699999999995,
+      "sell_price": 1.37
+    },
+    {
+      "profit_or_loss": -232.9369999999999,
+      "sell_price": 1.38
+    },
+    {
+      "profit_or_loss": -198.10399999999936,
+      "sell_price": 1.3900000000000001
+    },
+    {
+      "profit_or_loss": -163.27099999999973,
+      "sell_price": 1.4
+    },
+    {
+      "profit_or_loss": -128.4479999999985,
+      "sell_price": 1.4100000000000001
+    },
+    {
+      "profit_or_loss": -93.61499999999978,
+      "sell_price": 1.42
+    },
+    {
+      "profit_or_loss": -59.78199999999924,
+      "sell_price": 1.43
+    },
+    {
+      "profit_or_loss": -24.948999999999614,
+      "sell_price": 1.44
+    },
+    {
+      "profit_or_loss": 9.884000000000015,
+      "sell_price": 1.45
+    },
+    {
+      "profit_or_loss": 44.71700000000055,
+      "sell_price": 1.46
+    },
+    {
+      "profit_or_loss": 79.5600000000004,
+      "sell_price": 1.47
+    },
+    {
+      "profit_or_loss": 114.39300000000003,
+      "sell_price": 1.48
+    },
+    {
+      "profit_or_loss": 149.22600000000057,
+      "sell_price": 1.49
+    },
+    {
+      "profit_or_loss": 184.0590000000002,
+      "sell_price": 1.5
+    },
+    {
+      "profit_or_loss": 218.89200000000073,
+      "sell_price": 1.51
+    },
+    {
+      "profit_or_loss": 253.72500000000036,
+      "sell_price": 1.52
+    },
+    {
+      "profit_or_loss": 288.558,
+      "sell_price": 1.53
+    },
+    {
+      "profit_or_loss": 323.39100000000053,
+      "sell_price": 1.54
+    },
+    {
+      "profit_or_loss": 358.22400000000016,
+      "sell_price": 1.55
+    },
+    {
+      "profit_or_loss": 393.0570000000007,
+      "sell_price": 1.56
+    },
+    {
+      "profit_or_loss": 427.8900000000003,
+      "sell_price": 1.57
+    },
+    {
+      "profit_or_loss": 462.72299999999996,
+      "sell_price": 1.58
+    },
+    {
+      "profit_or_loss": 497.5559999999996,
+      "sell_price": 1.5899999999999999
+    },
+    {
+      "profit_or_loss": 532.3890000000001,
+      "sell_price": 1.6
+    },
+    {
+      "profit_or_loss": 567.2120000000004,
+      "sell_price": 1.6099999999999999
+    },
+    {
+      "profit_or_loss": 602.0450000000001,
+      "sell_price": 1.62
+    },
+    {
+      "profit_or_loss": 636.8780000000006,
+      "sell_price": 1.63
+    },
+    {
+      "profit_or_loss": 671.7110000000002,
+      "sell_price": 1.6400000000000001
+    },
+    {
+      "profit_or_loss": 706.5540000000001,
+      "sell_price": 1.65
+    },
+    {
+      "profit_or_loss": 741.3870000000015,
+      "sell_price": 1.6600000000000001
+    },
+    {
+      "profit_or_loss": 776.2200000000003,
+      "sell_price": 1.67
+    },
+    {
+      "profit_or_loss": 811.0530000000017,
+      "sell_price": 1.6800000000000002
+    },
+    {
+      "profit_or_loss": 845.8860000000004,
+      "sell_price": 1.69
+    },
+    {
+      "profit_or_loss": 880.719000000001,
+      "sell_price": 1.7000000000000002
+    },
+    {
+      "profit_or_loss": 915.5520000000006,
+      "sell_price": 1.71
+    },
+    {
+      "profit_or_loss": 949.3850000000002,
+      "sell_price": 1.72
+    },
+    {
+      "profit_or_loss": 984.2180000000008,
+      "sell_price": 1.73
+    },
+    {
+      "profit_or_loss": 1019.0510000000004,
+      "sell_price": 1.74
+    },
+    {
+      "profit_or_loss": 1053.884,
+      "sell_price": 1.75
+    },
+    {
+      "profit_or_loss": 1088.7170000000006,
+      "sell_price": 1.76
+    },
+    {
+      "profit_or_loss": 1123.5500000000002,
+      "sell_price": 1.77
+    },
+    {
+      "profit_or_loss": 1158.3830000000007,
+      "sell_price": 1.78
+    },
+    {
+      "profit_or_loss": 1193.2160000000003,
+      "sell_price": 1.79
+    },
+    {
+      "profit_or_loss": 1228.049,
+      "sell_price": 1.8
+    },
+    {
+      "profit_or_loss": 1262.8720000000003,
+      "sell_price": 1.81
+    },
+    {
+      "profit_or_loss": 1297.705,
+      "sell_price": 1.82
+    },
+    {
+      "profit_or_loss": 1332.5480000000007,
+      "sell_price": 1.83
+    },
+    {
+      "profit_or_loss": 1367.3809999999994,
+      "sell_price": 1.8399999999999999
+    },
+    {
+      "profit_or_loss": 1402.214,
+      "sell_price": 1.85
+    },
+    {
+      "profit_or_loss": 1437.0470000000005,
+      "sell_price": 1.8599999999999999
+    },
+    {
+      "profit_or_loss": 1471.88,
+      "sell_price": 1.87
+    },
+    {
+      "profit_or_loss": 1506.7130000000006,
+      "sell_price": 1.88
+    },
+    {
+      "profit_or_loss": 1541.5460000000003,
+      "sell_price": 1.8900000000000001
+    },
+    {
+      "profit_or_loss": 1576.3790000000008,
+      "sell_price": 1.9
+    },
+    {
+      "profit_or_loss": 1611.2120000000014,
+      "sell_price": 1.9100000000000001
+    },
+    {
+      "profit_or_loss": 1646.045,
+      "sell_price": 1.92
+    },
+    {
+      "profit_or_loss": 1680.8780000000015,
+      "sell_price": 1.9300000000000002
+    },
+    {
+      "profit_or_loss": 1715.7110000000002,
+      "sell_price": 1.94
+    },
+    {
+      "profit_or_loss": 1750.5440000000017,
+      "sell_price": 1.9500000000000002
+    },
+    {
+      "profit_or_loss": 1785.3770000000004,
+      "sell_price": 1.96
+    },
+    {
+      "profit_or_loss": 1820.21,
+      "sell_price": 1.97
+    },
+    {
+      "profit_or_loss": 1855.0430000000006,
+      "sell_price": 1.98
+    },
+    {
+      "profit_or_loss": 1889.8760000000002,
+      "sell_price": 1.99
+    },
+    {
+      "profit_or_loss": 1924.719,
+      "sell_price": 2
+    },
+    {
+      "profit_or_loss": 1958.5319999999992,
+      "sell_price": 2.01
+    },
+    {
+      "profit_or_loss": 1993.375,
+      "sell_price": 2.02
+    },
+    {
+      "profit_or_loss": 2028.2080000000014,
+      "sell_price": 2.0300000000000002
+    },
+    {
+      "profit_or_loss": 2063.041,
+      "sell_price": 2.04
+    },
+    {
+      "profit_or_loss": 2097.874,
+      "sell_price": 2.05
+    },
+    {
+      "profit_or_loss": 2132.7070000000003,
+      "sell_price": 2.06
+    },
+    {
+      "profit_or_loss": 2167.540000000001,
+      "sell_price": 2.0700000000000003
+    },
+    {
+      "profit_or_loss": 2202.3730000000005,
+      "sell_price": 2.08
+    },
+    {
+      "profit_or_loss": 2237.205999999999,
+      "sell_price": 2.09
+    },
+    {
+      "profit_or_loss": 2272.0390000000007,
+      "sell_price": 2.1
+    },
+    {
+      "profit_or_loss": 2306.872000000001,
+      "sell_price": 2.1100000000000003
+    },
+    {
+      "profit_or_loss": 2341.705,
+      "sell_price": 2.12
+    },
+    {
+      "profit_or_loss": 2376.5380000000005,
+      "sell_price": 2.13
+    },
+    {
+      "profit_or_loss": 2411.371,
+      "sell_price": 2.14
+    },
+    {
+      "profit_or_loss": 2446.2040000000015,
+      "sell_price": 2.1500000000000004
+    },
+    {
+      "profit_or_loss": 2481.037000000001,
+      "sell_price": 2.16
+    },
+    {
+      "profit_or_loss": 2515.870000000001,
+      "sell_price": 2.17
+    },
+    {
+      "profit_or_loss": 2550.7029999999995,
+      "sell_price": 2.1799999999999997
+    },
+    {
+      "profit_or_loss": 2585.5460000000003,
+      "sell_price": 2.19
+    },
+    {
+      "profit_or_loss": 2620.3790000000017,
+      "sell_price": 2.2
+    },
+    {
+      "profit_or_loss": 2655.202,
+      "sell_price": 2.21
+    },
+    {
+      "profit_or_loss": 2690.035,
+      "sell_price": 2.2199999999999998
+    },
+    {
+      "profit_or_loss": 2724.8680000000004,
+      "sell_price": 2.23
+    },
+    {
+      "profit_or_loss": 2759.701000000001,
+      "sell_price": 2.24
+    },
+    {
+      "profit_or_loss": 2794.5340000000006,
+      "sell_price": 2.25
+    },
+    {
+      "profit_or_loss": 2829.3669999999993,
+      "sell_price": 2.26
+    },
+    {
+      "profit_or_loss": 2864.2000000000007,
+      "sell_price": 2.27
+    },
+    {
+      "profit_or_loss": 2899.0330000000013,
+      "sell_price": 2.2800000000000002
+    },
+    {
+      "profit_or_loss": 2932.866,
+      "sell_price": 2.29
+    },
+    {
+      "profit_or_loss": 2967.6989999999996,
+      "sell_price": 2.3
+    },
+    {
+      "profit_or_loss": 3002.532,
+      "sell_price": 2.31
+    },
+    {
+      "profit_or_loss": 3037.3650000000016,
+      "sell_price": 2.3200000000000003
+    },
+    {
+      "profit_or_loss": 3072.1980000000003,
+      "sell_price": 2.33
+    },
+    {
+      "profit_or_loss": 3107.030999999999,
+      "sell_price": 2.34
+    },
+    {
+      "profit_or_loss": 3141.8640000000005,
+      "sell_price": 2.35
+    },
+    {
+      "profit_or_loss": 3176.697000000002,
+      "sell_price": 2.3600000000000003
+    },
+    {
+      "profit_or_loss": 3211.540000000001,
+      "sell_price": 2.37
+    },
+    {
+      "profit_or_loss": 3246.3729999999996,
+      "sell_price": 2.38
+    },
+    {
+      "profit_or_loss": 3281.206,
+      "sell_price": 2.39
+    },
+    {
+      "profit_or_loss": 3316.0390000000025,
+      "sell_price": 2.4000000000000004
+    },
+    {
+      "profit_or_loss": 3350.862000000001,
+      "sell_price": 2.41
+    },
+    {
+      "profit_or_loss": 3385.6949999999997,
+      "sell_price": 2.42
+    },
+    {
+      "profit_or_loss": 3420.5279999999984,
+      "sell_price": 2.4299999999999997
+    },
+    {
+      "profit_or_loss": 3455.361000000001,
+      "sell_price": 2.44
+    },
+    {
+      "profit_or_loss": 3490.1939999999995,
+      "sell_price": 2.45
+    },
+    {
+      "profit_or_loss": 3525.027,
+      "sell_price": 2.46
+    },
+    {
+      "profit_or_loss": 3559.8600000000006,
+      "sell_price": 2.4699999999999998
+    },
+    {
+      "profit_or_loss": 3594.693000000001,
+      "sell_price": 2.48
+    },
+    {
+      "profit_or_loss": 3629.526,
+      "sell_price": 2.49
+    },
+    {
+      "profit_or_loss": 3664.3590000000004,
+      "sell_price": 2.5
+    },
+    {
+      "profit_or_loss": 3699.192000000001,
+      "sell_price": 2.51
+    },
+    {
+      "profit_or_loss": 3734.0249999999996,
+      "sell_price": 2.52
+    },
+    {
+      "profit_or_loss": 3768.858,
+      "sell_price": 2.5300000000000002
+    },
+    {
+      "profit_or_loss": 3803.6910000000007,
+      "sell_price": 2.54
+    },
+    {
+      "profit_or_loss": 3838.5339999999997,
+      "sell_price": 2.55
+    },
+    {
+      "profit_or_loss": 3873.367,
+      "sell_price": 2.56
+    },
+    {
+      "profit_or_loss": 3908.2000000000025,
+      "sell_price": 2.5700000000000003
+    },
+    {
+      "profit_or_loss": 3942.0330000000013,
+      "sell_price": 2.58
+    },
+    {
+      "profit_or_loss": 3976.866,
+      "sell_price": 2.59
+    },
+    {
+      "profit_or_loss": 4011.6990000000005,
+      "sell_price": 2.6
+    },
+    {
+      "profit_or_loss": 4046.5220000000027,
+      "sell_price": 2.6100000000000003
+    },
+    {
+      "profit_or_loss": 4081.3549999999996,
+      "sell_price": 2.62
+    },
+    {
+      "profit_or_loss": 4116.188,
+      "sell_price": 2.63
+    },
+    {
+      "profit_or_loss": 4151.021000000001,
+      "sell_price": 2.64
+    },
+    {
+      "profit_or_loss": 4185.854000000003,
+      "sell_price": 2.6500000000000004
+    },
+    {
+      "profit_or_loss": 4220.687,
+      "sell_price": 2.66
+    },
+    {
+      "profit_or_loss": 4255.52,
+      "sell_price": 2.67
+    },
+    {
+      "profit_or_loss": 4290.352999999999,
+      "sell_price": 2.6799999999999997
+    },
+    {
+      "profit_or_loss": 4325.186,
+      "sell_price": 2.69
+    },
+    {
+      "profit_or_loss": 4360.019,
+      "sell_price": 2.7
+    },
+    {
+      "profit_or_loss": 4394.852000000001,
+      "sell_price": 2.71
+    },
+    {
+      "profit_or_loss": 4429.6849999999995,
+      "sell_price": 2.7199999999999998
+    },
+    {
+      "profit_or_loss": 4464.518,
+      "sell_price": 2.73
+    },
+    {
+      "profit_or_loss": 4499.361000000001,
+      "sell_price": 2.74
+    },
+    {
+      "profit_or_loss": 4534.1939999999995,
+      "sell_price": 2.75
+    },
+    {
+      "profit_or_loss": 4569.027,
+      "sell_price": 2.76
+    },
+    {
+      "profit_or_loss": 4603.860000000001,
+      "sell_price": 2.77
+    },
+    {
+      "profit_or_loss": 4638.693000000001,
+      "sell_price": 2.7800000000000002
+    },
+    {
+      "profit_or_loss": 4673.526,
+      "sell_price": 2.79
+    },
+    {
+      "profit_or_loss": 4708.359,
+      "sell_price": 2.8
+    },
+    {
+      "profit_or_loss": 4743.182000000001,
+      "sell_price": 2.81
+    },
+    {
+      "profit_or_loss": 4778.015000000003,
+      "sell_price": 2.8200000000000003
+    },
+    {
+      "profit_or_loss": 4812.848,
+      "sell_price": 2.83
+    },
+    {
+      "profit_or_loss": 4847.6810000000005,
+      "sell_price": 2.84
+    },
+    {
+      "profit_or_loss": 4882.514000000001,
+      "sell_price": 2.85
+    },
+    {
+      "profit_or_loss": 4916.347000000002,
+      "sell_price": 2.8600000000000003
+    },
+    {
+      "profit_or_loss": 4951.18,
+      "sell_price": 2.87
+    },
+    {
+      "profit_or_loss": 4986.013000000001,
+      "sell_price": 2.88
+    },
+    {
+      "profit_or_loss": 5020.846,
+      "sell_price": 2.89
+    },
+    {
+      "profit_or_loss": 5055.679000000002,
+      "sell_price": 2.9000000000000004
+    },
+    {
+      "profit_or_loss": 5090.512000000001,
+      "sell_price": 2.91
+    },
+    {
+      "profit_or_loss": 5125.355,
+      "sell_price": 2.92
+    },
+    {
+      "profit_or_loss": 5160.187999999998,
+      "sell_price": 2.9299999999999997
+    },
+    {
+      "profit_or_loss": 5195.021000000001,
+      "sell_price": 2.94
+    },
+    {
+      "profit_or_loss": 5229.854000000001,
+      "sell_price": 2.95
+    },
+    {
+      "profit_or_loss": 5264.687,
+      "sell_price": 2.96
+    },
+    {
+      "profit_or_loss": 5299.52,
+      "sell_price": 2.9699999999999998
+    },
+    {
+      "profit_or_loss": 5334.353000000001,
+      "sell_price": 2.98
+    },
+    {
+      "profit_or_loss": 5369.186,
+      "sell_price": 2.99
+    }
+  ]
+}
