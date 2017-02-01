@@ -1,80 +1,215 @@
 FORMAT: 1A
-HOST: http://polls.apiblueprint.org/
+HOST: https://whispering-reef-73372.herokuapp.com
 
-# python-microservice-finance
+# Python Microservice Finance
 
-Polls is a simple API allowing consumers to view polls and vote in them.
+Contains services for calculating the Dividend Discount Model (DDM).
 
-## Questions Collection [/questions]
+## Fundamentals Endpoint [/fundamentals/dividend-discount-model]
 
-### List All Questions [GET]
 
-+ Response 200 (application/json)
+### Calculate Dividend Discount Model [POST]
 
-        [
-            {
-                "question": "Favourite programming language?",
-                "published_at": "2015-08-05T08:40:51.620Z",
-                "choices": [
-                    {
-                        "choice": "Swift",
-                        "votes": 2048
-                    }, {
-                        "choice": "Python",
-                        "votes": 1024
-                    }, {
-                        "choice": "Objective-C",
-                        "votes": 512
-                    }, {
-                        "choice": "Ruby",
-                        "votes": 256
-                    }
-                ]
-            }
-        ]
-
-### Create a New Question [POST]
-
-You may create your own question using this action. It takes a JSON
-object containing a question and a collection of answers in the
-form of choices.
+You can calculate the intrinsic value of a company with this service. It takes a JSON
+object containing the company financial status.
 
 + Request (application/json)
 
         {
-            "question": "Favourite programming language?",
-            "choices": [
-                "Swift",
-                "Python",
-                "Objective-C",
-                "Ruby"
-            ]
+            "interest_rate": 0.02,
+            "business_tax_rate": 0.3,
+            "stock_beta": 1.24,
+            "market_risk_free_premium": 0.055,
+            "risk_free_rate": 0.0176,
+            "market_value_of_debt": 246250000,
+            "total_market_value_of_debt_and_equity": 2766250000,
+            "market_value_of_equity": 2520000000,
+            "years": 10,
+            "long_term_growth_rate": 0.08,
+            "free_cash_flow": 112500000,
+            "discount_rate": 0.0794,
+            "perpetuity_growth_rate": 0.024,
+            "cash_and_cash_equivalent": 16000000,
+            "total_liabilities": 348000000,
+            "shares_outstanding": 43140000,
+            "current_value_per_share": 58.41
         }
 
+
 + Response 201 (application/json)
-
-    + Headers
-
-            Location: /questions/2
 
     + Body
 
             {
-                "question": "Favourite programming language?",
-                "published_at": "2015-08-05T08:40:51.620Z",
-                "choices": [
+                "we": 0.9109805693628559,
+                "wd": 0.08901943063714415,
+                "tv": 2090692922.1198013,
+                "wacc": 0.07940840488025305,
+                "dcf": [
+                    [
+                        121500000.00000001,
+                        0.9264406151565685
+                    ],
+                    [
+                        131220000.00000001,
+                        0.8582922134116812
+                    ],
+                    [
+                        141717600.00000003,
+                        0.7951567661772106
+                    ],
+                    [
+                        153055008.00000003,
+                        0.7366655236031228
+                    ],
+                    [
+                        165299408.64000008,
+                        0.6824768608515127
+                    ],
+                    [
+                        178523361.33120006,
+                        0.6322742827973993
+                    ],
+                    [
+                        192805230.2376961,
+                        0.5857645755025008
+                    ],
+                    [
+                        208229648.6567118,
+                        0.542676093665463
+                    ],
+                    [
+                        224888020.54924875,
+                        0.5027571740461952
+                    ],
+                    [
+                        242879062.19318867,
+                        0.46577466559773506
+                    ]
+                ],
+                "rd": 0.013999999999999999,
+                "re": 0.0858,
+                "ivps": 66.92485106218392,
+                "npv": 1128445152.702813
+            }
+
+
+## Calculator Endpoint [/api/v1/costs]
+
+
+### Calculate Profit/Loss from Selling stocks [POST /api/v1/costs/profit]
+
+You can calculate the profit or loss from selling the stocks you purchased. It takes a JSON
+object containing the buy price, sell price and the units bought.
+
++ Request (application/json)
+
+        {
+            "buy_price": 1.43,
+            "sell_price": 1.51,
+            "units": 3500
+        }
+
+
++ Response 201 (application/json)
+
+    + Body
+
+            {
+                "data": 218.89200000000073
+            }
+
+### Calculate Minimum Sell Price [POST /api/v1/costs/minimum-sell-price]
+
+You can calculate the minimum sell price of the stocks you bought in order to avoid losses. It takes a JSON
+object containing the buy price and the units bought.
+
++ Request (application/json)
+
+        {
+            "buy_price": 1.43,
+            "units": 3500
+        }
+
+
++ Response 201 (application/json)
+
+    + Body
+
+            {
+                "data": 1.45
+            }
+
+### Calculate Sell Price for Target Profit [POST /api/v1/costs/target-profit]
+
+You can calculate the minimum sell price of the stocks you bought in order to achieve the minimum of the amount you want to profit. It takes a JSON
+object containing the buy price, units bought and the target profit.
+
++ Request (application/json)
+
+        {
+            "buy_price": 1.43,
+            "units": 3500,
+            "target_profit": 1000
+        }
+
+
++ Response 201 (application/json)
+
+    + Body
+
+            {
+                "data": 1.74
+            }
+
+
+### Calculate Projected Values for a Given Sell Price [POST /api/v1/costs/lists]
+
+You can view the list of the projected profits/losses from selling the stock at a given price. It takes a JSON
+object containing the buy price, sell price, and units bought.
+
++ Request (application/json)
+
+        {
+            "buy_price": 1.43,
+            "sell_price": 1.51,
+            "units": 3500
+        }
+
+
++ Response 201 (application/json)
+
+    + Body
+
+            {
+                "data": [
                     {
-                        "choice": "Swift",
-                        "votes": 0
-                    }, {
-                        "choice": "Python",
-                        "votes": 0
-                    }, {
-                        "choice": "Objective-C",
-                        "votes": 0
-                    }, {
-                        "choice": "Ruby",
-                        "votes": 0
+                        "profit_or_loss": -1555.5909999999994,
+                        "sell_price": 1
+                    },
+                    {
+                        "profit_or_loss": -1520.7679999999996,
+                        "sell_price": 1.01
+                    },
+                    {
+                        "profit_or_loss": -1485.9349999999995,
+                        "sell_price": 1.02
+                    },
+                    {
+                        "profit_or_loss": 5264.687,
+                        "sell_price": 2.96
+                    },
+                    {
+                        "profit_or_loss": 5299.52,
+                        "sell_price": 2.9699999999999998
+                    },
+                    {
+                        "profit_or_loss": 5334.353000000001,
+                        "sell_price": 2.98
+                    },
+                    {
+                        "profit_or_loss": 5369.186,
+                        "sell_price": 2.99
                     }
                 ]
             }
