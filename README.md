@@ -9,35 +9,38 @@ API Documentation available [here](http://docs.pyfinance.apiary.io/).
 
 # Indicators
 
-Bolinger Band
-Exponential Moving Average (Done)
-Exponential Moving Average Envelope
-Ichimoku Kinko hyo
-Parabolic
-Price Channel
-Simple Moving Average (Done)
-Simple Moving Average Envelope 
-Accumulation/Distribution
-Average Directional Index
-Absolute True Range (ATR) (Done) - measures volatility
-ElderRay
-Elder Impulse
-Chaikin Money Flow
-Commodity Channel Index
-Elliot Wave Oscillator
-Force Index
-Guppy Multiple Moving Average
-Momentum
-Money Flow Index
-Moving Average Convergence/Divergence
-On Balance Volume
-Price Volume Trend
-Rate of Change
-Keltner-Channel - (Done) - volatility-based envelopes
-Percentage Price Oscillator (Done) - momentum oscillator
-Relative Strength Index (Done)
-Smoothed Relative Strength Index
-Smoothed Stochastic
-Stochastic
-Volume
-Williams' %R
++ Bolinger Band (Done)
++ Exponential Moving Average (Done)
++ Price Channel (Done)
++ Simple Moving Average (Done)
++ Simple Moving Average Envelope (Done)
++ Accumulation Distribution Line (ADL) (Done)
++ Absolute True Range (ATR) (Done) - measures volatility
++ Chaikin Money Flow (Done) - measures the amount of Money Flow Volume over a specific period
++ Commodity Channel Index (Done) - identify a new trend or warn of extreme conditions
++ Force Index (Done)
++ Money Flow Index (Done) - an oscillator that uses both price and
+volume to measure buying and selling pressure
++ Moving Average Convergence/Divergence Oscillator (MACD) (Done) - trend following and momentum
++ Keltner-Channel - (Done) - volatility-based envelopes
++ Percentage Price Oscillator (Done) - momentum oscillator
++ Relative Strength Index (Done)
++ Williams' %R (Done)
+
+In Progress
++ Exponential Moving Average Envelope 
++ Ichimoku Kinko hyo (Not enough data)
++ Parabolic SAR (Not enough data)
++ Average Directional Index (Not enough info)
++ ElderRay (Not enough data)
++ Elder Impulse (Not enough data)
++ Elliot Wave Oscillator (Not enough data)
++ Guppy Multiple Moving Average
++ Momentum
++ On Balance Volume (OBV) (Not enough data)
++ Price Volume Trend (Not enough data)
++ Rate of Change 
++ Smoothed Relative Strength Index
++ Smoothed Stochastic
++ Stochastic
++ Volume
