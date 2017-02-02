@@ -22,9 +22,16 @@ def calculate_costs():
   sell_price = body['sell_price']
   
   calculator = Calculator()
-
   return jsonify({
-    'data': calculator.profit_or_losses(units, buy_price, sell_price)
+    'data': {
+      'profit_or_losses': calculator.profit_or_losses(units, buy_price, sell_price),
+      'sell_fee': calculator.total_fee(units, sell_price),
+      'buy_fee': calculator.total_fee(units, buy_price),
+      'net_sell_price': calculator.net_sell_price(units, sell_price),
+      'net_buy_price': calculator.net_purchase_price(units, buy_price),
+      'gross_buy_price': calculator.gross_amount(units, buy_price),
+      'gross_sell_price': calculator.gross_amount(units, sell_price)
+    }
   })
 
 @costs.route('/api/v1/costs/minimum-sell-price', methods=['POST'])
