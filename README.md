@@ -9,55 +9,10 @@ API Documentation available [here](http://docs.pyfinance.apiary.io/).
 
 ## Indicators
 
-### Bolinger Band
-
-#### Type:
-Volatility indicator
-
-#### Description:
-Volatility bands placed above and below a moving average. Use it to measure the __highness__ or __lowness__ of the price relative to previous trades.
-
-#### Signals:
-1. When bands are narrow, period of __low__ volatility.
-2. When bands expand, increase in price action/market volatility. 
-
-> Similar to: Keltner channel
-
-------
-
-### Moving Average (MA)
-
-#### Type: 
-Smoothing trendline
-
-#### Description:
-Smooth the price data by reducing noise to form a trend following indicator. They do not predict price direction, but rather define the current direction with a lag. Moving averages lag because they are based on past prices.
-
-> Related to: Exponential moving average (EMA), Simple moving average (SMA)
-
----
-
-### Simple Moving Average (EMA)
-
-#### Type: 
-Moving average
-
-#### Description:
-A simple moving average is formed by computing the average price of a security over a specific number of periods.
-
----
-### Exponential Moving Average (EMA)
-
-#### Type: 
-Moving average
-
-#### Description:
-Reduce lag by applying more weight to recent prices.
-
----
-
-
-
++ Bolinger Band
++ Moving Average (MA)
++ Simple Moving Average (EMA)
++ Exponential Moving Average (EMA)
 + Price Channel (Done)
 + Simple Moving Average Envelope (Done)
 + Accumulation Distribution Line (ADL) (Done)
@@ -72,8 +27,9 @@ volume to measure buying and selling pressure
 + Percentage Price Oscillator (Done) - momentum oscillator
 + Relative Strength Index (Done)
 + Williams' %R (Done)
++ Stochastic (Done)
 
-In Progress
+## In Progress
 
 + Exponential Moving Average Envelope 
 + Ichimoku Kinko hyo (Not enough data)
@@ -89,8 +45,7 @@ In Progress
 + Rate of Change 
 + Smoothed Relative Strength Index
 + Smoothed Stochastic
-+ Stochastic
-+ Volume
++ Volume (Just a bar chart displaying volume)
 
 ## Glossary
 

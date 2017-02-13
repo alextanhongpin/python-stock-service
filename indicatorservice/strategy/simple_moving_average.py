@@ -1,33 +1,35 @@
-"""
-    SMA
-"""
 from __future__ import division
-import csv
+from ... import open_csv, parse_data, make_copy
 
-
-data = []
 csv_path = './indicatorservice/data/2017-01-27-ql-resources.csv'
+raw_data = parse_data(open_csv(csv_path))
 
+def upper_envelope(sma, envelope=0.025):
+  return sma + sma * envelope
 
-with open(csv_path) as csvfile:
-    lines = csv.DictReader(csvfile)
-    for i, line in enumerate(lines):
-        data.append(line)
+def lower_envelope(sma, envelope=0.025):
+  return sma - sma * envelope
 
-# Relative Strength Index
-def simple_moving_average(data, days=20, envelope=0.025):
+def simple_moving_average(data, period=20, envelope=0.025):
     """
       Calculates the SMA for a given time period
       Envelope can be 2.5%, 5%, 10%
     """
-    copy = data[:]
-    closing_price = [float(value['Close']) for value in copy]
-    output = [sum(closing_price[index - days:index]) 
-              if index >= days else 0 
-              for index, _ in enumerate(closing_price)]
-    return [{"sma": sma, "upper_envelope": sma + sma * 0.025, "lower_envelope": sma - sma * 0.025} 
-            for sma in output]
+    output = [average(prev_values(data, i, period))
+              if i >= period else 0
+              for i, v in data]
+    return [{
+              "sma": sma, 
+              "upper_envelope": upper_envelope(sma, envelope), 
+              "lower_envelope": lower_envelope(sma, envelope) 
+            } for sma in output]
 
-for index, value in enumerate(simple_moving_average(data, 20, 0.05)[:100]):
-    print index + 1, value
 
+# Make a copy
+data = make_copy(raw_data)
+
+# Filter the close prices
+close_prices = [d['close'] for d in data]
+
+# Calculate the SMA
+sma = simple_moving_average(close_prices)
