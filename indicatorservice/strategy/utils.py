@@ -27,11 +27,21 @@ def parse_data(data):
 
 # Average
 def average(data):
-    return sum(data) / len(data)
+    try:
+        return sum(data) / len(data)
+    except ZeroDivisionError:
+        return 0
+
+def relative_change(data):
+    return [d[i] - d[i - 1] for i, v in enumerate(data)]
 
 # Prev values
 def prev_values(data, index, period):
-    return data[index - period:index]
+    diff = index + 1 - period
+    if diff >= 0:
+        return data[diff:index + 1]
+    else:
+        return [0]
 
 def make_copy(data):
   return data[:]
